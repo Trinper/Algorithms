@@ -104,6 +104,35 @@ class BST {
         root = deleteNode(key);
     }
 
+    static int getHeight(Node* node){
+        int height  = -1;
+        if (node){
+            return std::max(getHeight(node -> Left), getHeight(node -> Right)) + 1;
+        } else {
+            return -1;
+        }
+    }
+
+    int getHeight(){
+        return getHeight(root);
+    }
+
+    Node* find(Node* node, int key){
+        if (!node || node -> key == key){
+            return node;
+        }
+
+        if (node -> key < key){
+            return find(node -> Right, key);
+        }
+
+        return find(node -> Left, key);
+    }
+
+    bool search(int key){
+        return find(root, key);
+    }
+
     void ALR(Node* node){
         if (node){
             std::cout << node->key << '\n';
@@ -189,9 +218,15 @@ int main() {
     while (std::cin >> key){
         tree.insertNode(key);
     }
-    tree.removeNode(key_delete);
+
+    std::cout << "Height of BST: " << tree.getHeight() << '\n';
+    std::cout << "Tree before removal: " << '\n';
+    tree.ALR();
+    std::cout << '\n' << "The result of searching for a Node with a key equal to key_delete: " << (tree.search(key_delete) ? "true" : "false") << '\n';
+    tree.removeNode(key_delete); //delete key_delete
+    std::cout << "Height of BST after removal: " << tree.getHeight() << '\n';
+    std::cout << "New tree after removal: " << '\n';
     tree.ALR();
     fclose (stdin);
-    //fclose (stdout);
     return 0;
 }
