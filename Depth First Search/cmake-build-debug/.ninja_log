@@ -1,0 +1,11 @@
+# ninja log v5
+1	1178	7234896647215736	CMakeFiles/Depth_First_Search.dir/main.cpp.obj	c1480c3277a1bac2
+1180	1260	7234896648023034	Depth_First_Search.exe	d42b5655cfc4fca4
+2	1064	7234896762600659	CMakeFiles/Depth_First_Search.dir/main.cpp.obj	c1480c3277a1bac2
+1064	1136	7234896763307317	Depth_First_Search.exe	d42b5655cfc4fca4
+2	992	7234897336369882	CMakeFiles/Depth_First_Search.dir/main.cpp.obj	c1480c3277a1bac2
+993	1062	7234897337037609	Depth_First_Search.exe	d42b5655cfc4fca4
+2	1063	7234897959079823	CMakeFiles/Depth_First_Search.dir/main.cpp.obj	c1480c3277a1bac2
+1063	1131	7234897959747205	Depth_First_Search.exe	d42b5655cfc4fca4
+1	952	7234898504250935	CMakeFiles/Depth_First_Search.dir/main.cpp.obj	c1480c3277a1bac2
+952	1016	7234898504872521	Depth_First_Search.exe	d42b5655cfc4fca4
