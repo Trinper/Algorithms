@@ -65,7 +65,7 @@ public:
 
     long long findMax(int v, int tl, int tr, int l, int r){
         if (l > r)
-            return 0;
+            return LLONG_MIN;
         if (l == tl && r == tr) {
             return max[v];
         }
@@ -76,7 +76,7 @@ public:
 
     long long findMin(int v, int tl, int tr, int l, int r){
         if (l > r)
-            return 0;
+            return LLONG_MAX;
         if (l == tl && r == tr) {
             return min[v];
         }
