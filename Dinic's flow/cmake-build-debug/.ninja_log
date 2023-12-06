@@ -1,0 +1,23 @@
+# ninja log v5
+1	4524	7236067038768937	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+4530	4914	7236067042645358	Dinic_flow.exe	e323cfeb9ffd2417
+25	3255	7236068102226895	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3256	3394	7236068103632005	Dinic_flow.exe	e323cfeb9ffd2417
+7	3924	7236069304782061	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3925	4242	7236069307973615	Dinic_flow.exe	e323cfeb9ffd2417
+6	3450	7236069381382224	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3451	3636	7236069383256636	Dinic_flow.exe	e323cfeb9ffd2417
+6	3046	7236070009695538	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3047	3221	7236070011422005	Dinic_flow.exe	e323cfeb9ffd2417
+7	3265	7236071101286067	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3265	3520	7236071103805761	Dinic_flow.exe	e323cfeb9ffd2417
+5	3276	7236071763726180	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3276	3576	7236071766702666	Dinic_flow.exe	e323cfeb9ffd2417
+7	3995	7236071956127260	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3996	4291	7236071959029105	Dinic_flow.exe	e323cfeb9ffd2417
+8	3392	7236072085862452	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3393	3594	7236072087866848	Dinic_flow.exe	e323cfeb9ffd2417
+6	3091	7236072289666031	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3092	3189	7236072290607719	Dinic_flow.exe	e323cfeb9ffd2417
+6	3818	7236080584446821	CMakeFiles/Dinic_flow.dir/main.cpp.obj	d1edff617fd35fdc
+3819	4118	7236080587420036	Dinic_flow.exe	e323cfeb9ffd2417

@@ -1,0 +1,3 @@
+Given a directed graph G containing n vertices and m arcs, in which each arc (u, v) is assigned a capacity cuv.
+
+It is required to find in this network a flow of maximum value from the source (vertex 1) to the sink (vertex n).
